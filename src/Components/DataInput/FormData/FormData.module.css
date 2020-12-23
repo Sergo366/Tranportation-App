@@ -1,0 +1,75 @@
+*:focus {
+    outline: none;
+}
+.flex{
+    display: flex;
+    background-color: white;
+    margin-top: 70px ;
+}
+.radioButton{
+    font-family: Montserrat;
+    font-weight: bold;
+    line-height: 17px;
+    text-transform: uppercase;
+    padding: 30px 0 0 35px;
+
+}
+.radioButton input{
+    cursor: pointer;
+}
+.stile{
+    padding-left:40px ;
+}
+.stile input{
+    border: 1px solid #F57A00;
+    box-sizing: border-box;
+    border-radius: 2px;
+    width: 260px;
+    height: 30px;
+}
+.stile p{
+    font-family: Montserrat;
+    font-size: 12px;
+    line-height: 24px;
+    margin: 13px 0 0 0;
+}
+.button button{
+    background: linear-gradient(90deg, #FF7700 0%, #FF941A 100%), url("https://i.pinimg.com/originals/99/f0/3f/99f03fdee90d871d3d1e718c82feb8be.png");
+    box-shadow: 0px 15px 15px rgba(245, 122, 0, 0.2);
+    border-radius: 2px;
+    padding: 3px 0px;
+    color: white;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-weight: bold;
+    line-height: 24px;
+    margin: 30px 0 35px 40px ;
+    transition: 0.2s;
+    border: none;
+    width: 260px;
+
+}
+
+.button button:hover{
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.autobus{
+    padding: 0 40px 0 43px ;
+}
+.data p {
+    border: 1px solid #F57A00;
+    box-sizing: border-box;
+    border-radius: 2px;
+    width: 260px;
+    height: 30px;
+
+
+}
+.data {
+    position: absolute;
+    top: 240px;
+    right: 200px;
+
+}

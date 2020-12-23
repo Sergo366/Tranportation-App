@@ -1,0 +1,38 @@
+.border{
+    border: 10px solid #F0F0F0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 30px 35px 40px 35px ;
+
+
+}
+.firstText{
+    font-family: Roboto Slab;
+    font-weight: 300;
+    font-size: 16px;
+}
+.titleInput{
+    font-family: Montserrat;
+    font-size: 12px;
+
+}
+.input input{
+    height: 30px;
+    width: 370px;
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+.titleTextArea{
+    font-family: Montserrat;
+    font-size: 12px;
+    line-height: 24px;
+}
+.textAreaa textArea{
+    height: 80px;
+    width: 370px;
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+

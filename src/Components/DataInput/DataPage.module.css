@@ -1,0 +1,15 @@
+.bg{
+
+}
+.container{
+    display: flex;
+    margin: 0 auto;
+    max-width: 1400px;
+    justify-content: space-around;
+}
+.mouse{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -45px;
+}

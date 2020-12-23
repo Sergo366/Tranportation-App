@@ -1,0 +1,7 @@
+.flex{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding:  150px 0 200px 0;
+}
