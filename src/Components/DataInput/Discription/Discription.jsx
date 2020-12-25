@@ -12,7 +12,7 @@ const Discription = () =>{
             </div>
             <div className={s.text}>
                 <p>Paying your fare is very easy - simply touch your payment card of choice on the yellow card reader as you board the bus, or show the driver your ...</p>
-                <NavLink to={"/1111"}>О нашем сервисе</NavLink>
+                <NavLink to={"/aboutUs"}>О нашем сервисе</NavLink>
             </div>
             <div className={s.info}>
                  <div className={s.logoWifi}>

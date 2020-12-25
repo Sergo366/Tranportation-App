@@ -35,4 +35,30 @@
     box-sizing: border-box;
     border-radius: 2px;
 }
+.otpravka{
+    box-sizing: border-box;
+    border: none;
+    background-color: white;
+
+}
+
+.otpravka p {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #1B60C0;
+    border: 1px solid #1B60C0;
+    box-sizing: border-box;
+    border-radius: 2px;
+    padding: 5px 23px;
+    margin: 23px 0 0 0 ;
+    transition-duration: 0.2s;
+}
+.otpravka p:hover{
+    border: 1px solid #1B60C0;
+    box-sizing: border-box;
+    border-radius: 15px;
+
+}
 

@@ -1,0 +1,25 @@
+.content{
+    background-image: url(../../../Images/Footer/BackFooter.png);
+    background-size: cover;
+
+
+}
+.footerIcon{
+    padding: 65px 100px 0 100px;
+    display: flex;
+    justify-content:space-between;
+}
+.icon {
+    opacity: 0.5;
+    position: relative;
+    top: 25px;
+}
+.footerText{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 10px 0 20px 0;
+}

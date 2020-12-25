@@ -1,0 +1,61 @@
+.slider {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 20px;
+}
+
+
+.slide {
+    opacity: 0;
+    transition-duration: 1s;
+}
+
+.slide.active {
+    opacity: 1;
+    transition-duration: 1s;
+    transform: scale(1.08);
+}
+.text{
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    max-width: 440px;
+    margin: 0 0 40px 0;
+    width: 440px;
+    min-height: 100px;
+    position: relative;
+
+}
+.rightArrow {
+    position: absolute;
+    left: 45px;
+    bottom: -45px;
+    font-size: 30px;
+    color: #000;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+
+.leftArrow {
+    position: absolute;
+    left: 5px;
+    bottom: -45px;
+    font-size: 30px;
+    color: #000;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+
+.name{
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 35px 0 0px 0;
+
+}

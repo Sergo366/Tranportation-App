@@ -1,3 +1,4 @@
+
 const ADD_POST = "ADD_POST"
 
 let initialState ={
@@ -13,14 +14,12 @@ const CustomerReviewsReducer = (state = initialState, action) =>{
         case ADD_POST:{
             let newPost ={
                 id: 4,
-                name: action.name,
-                postText: action.feedBack
+                name: action.nameA,
+                postText: action.feedBack,
             }
             return {
                 ...state,
                 posts: [...state.posts, newPost],
-                name:'',
-                feedBack: '',
 
             }
         }
@@ -31,6 +30,7 @@ const CustomerReviewsReducer = (state = initialState, action) =>{
 
 
 }
-export const addPostAC = (feedBack, name) =>({type:ADD_POST, feedBack, name})
+export const addPostAC = (feedBack, nameA) =>({type:ADD_POST, feedBack, nameA})
+
 
 export default CustomerReviewsReducer;

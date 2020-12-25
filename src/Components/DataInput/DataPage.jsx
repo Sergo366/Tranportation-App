@@ -12,9 +12,7 @@ const DataPage = (props) => {
         <div className={s.bg} style={{
             backgroundImage: `url(${BG})`,
             backgroundRepeat: 'no-repeat',
-            backgroundSize: `2000px 700px`,
-
-
+            backgroundSize: `cover`,
         }}>
             <div className={s.container}>
                 <Discription/>

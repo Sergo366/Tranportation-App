@@ -1,0 +1,88 @@
+.BgPlusFlex{
+    background: #DCE0E5;
+    position: relative;
+    margin: 0 0 240px 0;
+}
+.bus{
+    text-align: right;
+    padding: 0 100px 0 0;
+}
+.decor{
+    position: absolute;
+    top: 90px;
+    right: 100px;
+}
+.textBlock{
+    background: rgba(0, 0, 0, 0.5);
+    height: 130px;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 100px;
+}
+.Value{
+
+}
+.Value p{
+    display: inline-block;
+    font-family: Roboto Slab;
+    font-size: 44px;
+    line-height: 0px;
+    color: #F57A00;
+    padding: 0px 0 0px 20px;
+
+
+
+}
+.valueText{
+    font-family: Roboto Slab;
+    font-weight: 300;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+
+
+.bgBlock{
+    background-color: white;
+    padding: 50px 40px 40px 40px;
+    opacity: 0.96;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.07);
+    border-radius: 4px;
+    max-width: 360px;
+    position: relative;
+    bottom: 340px;
+
+}
+
+.title h3{
+    font-family: Roboto Slab;
+    font-weight: 300;
+    font-size: 32px;
+    text-align: right;
+    margin: 0;
+}
+.title p{
+    font-family: Montserrat;
+    font-size: 14px;
+    text-align: right;
+}
+.title{
+    border-right: 5px solid #F57A00;
+    padding-right: 25px;
+}
+.text{
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 30px;
+}
+.link a{
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: #F57A00;
+}

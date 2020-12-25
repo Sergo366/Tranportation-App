@@ -8,6 +8,7 @@ const TextUser = React.memo(props =>{
     return(
         <div className={s.container}>
             <div className={s.flex}>
+
                 <div className={s.firstText}>
                     <div className={s.lineForText}>
                        <p>Отзывы</p>

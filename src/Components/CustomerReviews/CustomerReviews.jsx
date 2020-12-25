@@ -8,10 +8,10 @@ const CustomerReviews = (props) => {
 
     const onAddPost = (values) => {
         return (
-            props.addPost(values.feedBack, values.yourNameFeedBack )
-
+            props.addPost(values.feedBack, values.yourNameFeedBack)
             )
     }
+
     return (
         <div className={s.flex}>
             <div className={s.decorBlue}>

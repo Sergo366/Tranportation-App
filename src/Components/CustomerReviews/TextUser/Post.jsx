@@ -1,48 +1,23 @@
-import React, {useState} from "react"
+import React from "react"
 import s from "./TextUser.module.css"
 import kivitski from "../../../Images/Reviews/kovitski_.png"
-import left from "../../../Images/Reviews/ArrowLeft.svg"
-import right from "../../../Images/Reviews/ArrowRight.svg"
+import ImageSlider from "../../../Utilits/Carousel/ImagesSlider";
 
 
 const Post = props => {
     return (
-        <div>
             <div className={s.flex}>
                 <div>
                     <div>
                         <img src={kivitski} alt=""/>
                     </div>
+                    <div>
 
-                    <div >
+                        <ImageSlider posts={props.posts}/>
 
-
-
-
-
-                        {props.posts.map((post) =>
-                            <div key={post.id}>
-                                <div className={s.name} >
-                                    <p>{post.name}</p>
-                                </div>
-                                <div  className={s.text}>
-                                    {post.postText}
-                                </div>
-                            </div>
-                        )}
-
-                    </div>
-                    <div className={s.arrow}>
-                        <div className={s.arrowLeft}>
-                            <img src={left} alt=""/>
-                        </div>
-                        <div className={s.arrowRight}>
-                            <img src={right} alt=""/>
-                        </div>
                     </div>
                 </div>
             </div>
-        </div>
     )
 }
 export default Post;

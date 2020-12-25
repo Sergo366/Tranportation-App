@@ -1,7 +1,7 @@
 import React from "react"
 import s from "./InputData.module.css"
 import {createField, Input, TextArea} from "../../../Common/FormsControl/FormsControl";
-import {required} from "../../../Utilits/validators/validators";
+import {maxLengthCreator, required} from "../../../Utilits/validators/validators";
 import {reduxForm} from "redux-form";
 
 const InputData = React.memo(props => {
@@ -30,9 +30,9 @@ const InputData = React.memo(props => {
                     {createField("", "feedBack", [required], TextArea, {})}
                 </div>
 
-                <div className={s.button}>
-                    <button >
-                        Отправить
+                <div >
+                    <button className={s.otpravka}>
+                       <p> Отправить</p>
                     </button>
                 </div>
             </form>
