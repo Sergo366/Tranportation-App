@@ -1,6 +1,8 @@
 .content{
     background-image: url(../../../Images/Footer/BackFooter.png);
     background-size: cover;
+    position: relative;
+    z-index: 1;
 
 
 }
