@@ -6,7 +6,7 @@
 .title p{
     font-size: 14px;
     font-weight: 500;
-    margin-bottom: -20px;
+    margin-bottom: 10px;
 }
 .title h1{
     font-size: 40px;
@@ -33,7 +33,7 @@
 
 }
 .text a:hover{
-    font-size: 16px;
+    font-size: 15px;
 }
 .info{
     display: flex;

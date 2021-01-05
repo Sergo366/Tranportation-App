@@ -20,25 +20,30 @@
     padding: 0 100px;
 }
 .Value{
-
+padding: 30px 0 0 0px;
+}
+.iconNumb{
+    text-align: center;
 }
 .Value p{
     display: inline-block;
     font-family: Roboto Slab;
     font-size: 44px;
-    line-height: 0px;
     color: #F57A00;
-    padding: 0px 0 0px 20px;
+    padding: 0px 0 10px 20px;
+    position: relative;
+    top: -10px;
 
 
 
 }
-.valueText{
+.valueText p{
     font-family: Roboto Slab;
     font-weight: 300;
     font-size: 16px;
     text-align: center;
     text-transform: uppercase;
+    letter-spacing: 1px;
     color: #FFFFFF;
 }
 

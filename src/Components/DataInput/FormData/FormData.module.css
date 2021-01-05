@@ -16,7 +16,13 @@
 }
 .radioButton input{
     cursor: pointer;
+    margin: 0 8px  0 30px;
 }
+
+.radioButton input:first-child{
+ margin: 0 8px 0 10px ;
+}
+
 .stile{
     padding-left:40px ;
 }

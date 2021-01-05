@@ -33,15 +33,15 @@ const ImageSlider = ({posts}) => {
                                 </div>
                                 <div className={s.text}>
                                      {slide.postText }
-                                    <FaArrowAltCircleLeft className={s.leftArrow} onClick={prevSlide}/>
-                                    <FaArrowAltCircleRight className={s.rightArrow} onClick={nextSlide}/>
                                 </div>
-
                             </div>
                         )}
+
                     </div>
                 );
             })}
+            <FaArrowAltCircleLeft className={s.leftArrow} onClick={prevSlide}/>
+            <FaArrowAltCircleRight className={s.rightArrow} onClick={nextSlide}/>
         </section>
     );
 };

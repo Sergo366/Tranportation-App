@@ -16,8 +16,8 @@ const formDataReducer = (state = initialState, action) =>{
 
             return{
                 ...state,
-                fromWhere:action.fromWhere,
-                whereTo:action.whereTo,
+                fromWhere:action.fromWhereAC,
+                whereTo:action.whereToAC,
                 name:action.name,
                 telNumber:action.number,
                 date:action.date,
@@ -33,6 +33,6 @@ const formDataReducer = (state = initialState, action) =>{
 
 }
 
-export const sendMessageAC = (fromWhere, whereTo, name, number, date, radio) =>({type:SEND_MESSAGE, fromWhere, whereTo, name, number, date, radio})
+export const sendMessageAC = (fromWhereAC, whereToAC, name, number, date, radio) =>({type:SEND_MESSAGE, fromWhereAC, whereToAC, name, number, date, radio})
 
 export default formDataReducer;

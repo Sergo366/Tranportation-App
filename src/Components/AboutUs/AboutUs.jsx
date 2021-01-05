@@ -43,18 +43,22 @@ const AboutUs = () => {
                 </div>
 
                 <div className={s.Value}>
-                    <img src={firstIcon} alt=""/>
-                    <p>1200</p>
+                    <div className={s.iconNumb}>
+                        <img src={firstIcon} alt=""/>
+                        <p>1200</p>
+                    </div>
                     <div className={s.valueText}>
-                        Доставка посылок
+                        <p>Доставленных посылок</p>
                     </div>
                 </div>
 
                 <div className={s.Value}>
-                    <img src={secondIcon} alt=""/>
-                    <p>3200</p>
+                    <div className={s.iconNumb}>
+                        <img src={secondIcon} alt=""/>
+                        <p>3200</p>
+                    </div>
                     <div className={s.valueText}>
-                        Перезвезенных пассажира
+                        <p>Перезвезенных пассажира</p>
                     </div>
                 </div>
 

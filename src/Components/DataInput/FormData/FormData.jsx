@@ -1,7 +1,7 @@
-import React, {useState} from "react"
+import React, {useEffect, useState} from "react"
 import {createField, Input} from "../../../Common/FormsControl/FormsControl";
 import {maxLengthCreator, required} from "../../../Utilits/validators/validators";
-import {reduxForm} from "redux-form";
+import {reduxForm, reset} from "redux-form";
 import {Field} from "redux-form";
 import s from "./FormData.module.css"
 import Autobus from "../../../Images/Data-Header/AutoBus.png"

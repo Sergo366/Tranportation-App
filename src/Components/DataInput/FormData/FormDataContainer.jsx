@@ -1,18 +1,21 @@
-import React from "react"
+import React, {useEffect} from "react"
 import LoginReduxForm from "./FormData";
 import {connect} from "react-redux";
 import {compose} from "redux";
 import {sendMessageAC} from "../../../Redux/formDataReducer";
 import DataFromRequest from "./FormDataRequest";
 import {Route} from "react-router-dom";
+import {reset} from "redux-form";
 
 
 
 
 const FormDataContainer = (props) => {
     const onSubmit = (values) => {
-       props.sendInput(values.fromWhere, values.whereTo, values.name, values.number, values.date, values.radio)
+        props.sendInput(values.fromWhere, values.whereTo, values.name, values.number, values.date, values.radio)
+
     }
+
 
     return (
         <div>
